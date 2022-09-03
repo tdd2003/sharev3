@@ -68,7 +68,7 @@ def share(i):
     if 'id' in retu:
         print('\033[1;00m',retu)
     else:
-       print('\033[1;31m Token Block Tính Năng Hoặc Link Post Sai!!!')
+       print('\033[1;31m Đang Chạy Share Nha Nhóc !')
 while (True):
 	for i in range(len(dulieu)):
 		khoitao = threading.Thread(target=share,args=(i,)).start()
